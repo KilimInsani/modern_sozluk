@@ -1,0 +1,11 @@
+sozluk = {"CRINGE": "Garip ve utandırıcı şey", "LOL": "Komik bir şeye verilen cevap", "CREEPY": "Korkunç", }
+
+sozluk2 = input("Neyi öğrenmek istersin(Hepsi büyük)")
+#bsozluk=sozluk2.upper()
+
+#if bsozluk in sozluk.keys():
+   # print(sozluk[bsozluk])
+  # #print(bsozluk)
+
+if sozluk2.upper() in sozluk.keys():
+    print(sozluk[sozluk2.upper()])
